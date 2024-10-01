@@ -1,5 +1,5 @@
 *{
-    border: 1px solid rgb(255, 166, 0);
+   /*  border: 1px solid rgb(255, 166, 0); */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,14 +29,30 @@ h1 {
 h2 {
     text-align: center;
     margin: 1%;
+    color: var(--ORANGE);
 }
 
 img {
-    height: 30rem;
+    height: 25rem;
     width: auto;
     margin: 1%;
 }
 
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ORANGE);
+}
 /* Specific Styles */
 .mainContainer {
     display: flex;
@@ -65,10 +81,14 @@ img {
 .btn button {
     font-size: 2.5rem;
     padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: var(--BGColor);
 }
 
 .newTaskBtn:hover {
-    background-color: var(--ORANGE)
+    background-color: var(--ORANGE);
+    border-radius: 10px;
 }
 
 .taskCompletedBtn {
@@ -90,4 +110,5 @@ img {
 
 .linksContainer p {
     padding: 10px;
+    cursor: pointer;
 }
