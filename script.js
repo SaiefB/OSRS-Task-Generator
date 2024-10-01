@@ -32,3 +32,6 @@ const object4 = {
 };
 
 const taskArr = [object1, object2, object3, object4];
+
+let currentTask = taskArr[Math.floor(Math.random()*taskArr.length)];
+console.log(currentTask);
