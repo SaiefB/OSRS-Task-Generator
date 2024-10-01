@@ -8,6 +8,7 @@
 :root {
     --BGColor: rgb(8, 1, 77);
     --FC: white;
+    --RED: rgb(204, 0, 0);
 
 }
 
@@ -37,9 +38,10 @@ img {
 .mainContainer {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
-.currentTask {
+.taskContainer {
     width: 100%;
 }
 
@@ -47,4 +49,29 @@ img {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.taskBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 1%;
+}
+
+.btn button {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+.newTaskBtn:hover {
+    background-color: var(--RED)
+}
+
+.taskCompletedBtn {
+    background-color: orange;
+}
+
+.taskCompletedBtn:hover {
+    background-color: green;
 }
