@@ -305,7 +305,7 @@ const object38 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Zulrah/Strategies"
 };
 
-const object39 = {
+const object39 = {Lizardman shaman (Lizardman Temple)
     name: "Demonic Gorillas",
     imagePath: "img/Demonic gorilla.png",
     message: "1 hour of Demonic Gorillas",
@@ -316,7 +316,7 @@ const object39 = {
 const object40 = {
     name: "Lizard Shamans",
     imagePath: "img/Lizardman shaman (Lizardman Temple).png",
-    message: "1 hour of Lizard Shamansh",
+    message: "1 hour of Lizard Shamans",
     bossLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman#Lizardman_Temple",
     strategyLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman/Strategies"
 };
