@@ -304,10 +304,45 @@ const object38 = {
     bossLink: "https://oldschool.runescape.wiki/w/Zulrah",
     strategyLink: "https://oldschool.runescape.wiki/w/Zulrah/Strategies"
 };
+
+const object39 = {
+    name: "Demonic Gorillas",
+    imagePath: "img/Demonic gorilla.png",
+    message: "1 hour of Demonic Gorillas",
+    bossLink: "https://oldschool.runescape.wiki/w/Demonic_gorilla",
+    strategyLink: "https://oldschool.runescape.wiki/w/Demonic_gorilla/Strategies"
+};
+
+const object40 = {
+    name: "Lizard Shamans",
+    imagePath: "img/Lizardman shaman (Lizardman Temple).png",
+    message: "1 hour of Lizard Shamansh",
+    bossLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman#Lizardman_Temple",
+    strategyLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman/Strategies"
+};
+ 
+// SKILLS
+const object41 = {
+    name: "Lizard Shamans",
+    imagePath: "img/Lizardman shaman (Lizardman Temple).png",
+    message: "1 hour of Lizard Shamansh",
+    bossLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman#Lizardman_Temple",
+    strategyLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman/Strategies"
+};
+
+const object42 = {
+    name: "Fishing XP",
+    imagePath: "img/Infernal harpoon detail.png",
+    message: "25k Fishing XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Fishing#Fishing_methods",
+    strategyLink: "https://oldschool.tools/calculators/skill/fishing"
+};
+ 
+
  
 
 // Array of tasks
-const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38];
+const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42];
 
 // Function to generate a random task
 function generateTask() {
