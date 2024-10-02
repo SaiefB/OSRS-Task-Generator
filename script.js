@@ -349,6 +349,8 @@ const object43 = {
 // MINIGAMES
 
 // Hallowed Sepulchre
+
+TODO: // add a separate the boss tasks and other tasks from each other - "Time to Boss!"
  
 
  
