@@ -345,18 +345,150 @@ const object43 = {
     bossLink: "https://oldschool.runescape.wiki/w/Cooking",
     strategyLink: "https://oldschool.tools/calculators/skill/cooking"
 };
+const object44 = {
+    name: "Herblore XP",
+    imagePath: "img/Prayer potion(4) detail.png",
+    message: "50k Herblore XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Herblore",
+    strategyLink: "https://oldschool.tools/calculators/skill/herblore"
+};
+
+const object45 = {
+    name: "Herblore XP",
+    imagePath: "img/Prayer potion(4) detail.png",
+    message: "50k Herblore XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Herblore",
+    strategyLink: "https://oldschool.tools/calculators/skill/herblore"
+};
+ 
+const object46 = {
+    name: "thieving XP",
+    imagePath: "img/Knight of Ardougne.png",
+    message: "50k Thieving XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Thieving",
+    strategyLink: "https://oldschool.tools/calculators/skill/thieving"
+};
+ 
+const object47 = {
+    name: "Mining XP",
+    imagePath: "img/Runite ore detail.png",
+    message: "25k Mining XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Mining",
+    strategyLink: "https://oldschool.tools/calculators/skill/mining"
+};
+ 
+const object48 = {
+    name: "Woodcutting XP",
+    imagePath: "img/Redwood.png",
+    message: "50k Woodcutting XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Woodcutting",
+    strategyLink: "https://oldschool.tools/calculators/skill/woodcutting"
+};
+ 
+const object49 = {
+    name: "Slayer",
+    imagePath: "img/Slayer helmet detail.png",
+    message: "Complete a Slayer Task",
+    bossLink: "https://oldschool.runescape.wiki/w/Slayer",
+    strategyLink: "https://oldschool.runescape.wiki/w/Slayer_training"
+};
+ 
+const object50 = {
+    name: "Construction XP",
+    imagePath: "img/Oak larder built.png",
+    message: "100k Construction XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Construction",
+    strategyLink: "https://oldschool.tools/calculators/skill/construction"
+};
+ 
+const object51 = {
+    name: "Fletching XP",
+    imagePath: "img/Magic longbow (u) detail.png",
+    message: "100k Fletching XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Fletching",
+    strategyLink: "https://oldschool.tools/calculators/skill/fletching"
+};
+ 
+const object52 = {
+    name: "Firemaking XP",
+    imagePath: "img/Fire.gif",
+    message: "50k Firemaking XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Firemaking",
+    strategyLink: "https://oldschool.tools/calculators/skill/firemaking"
+};
+ 
+const object53 = {
+    name: "Runecrafting XP",
+    imagePath: "img/Altar (blood).png",
+    message: "50k Runecrafting XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Runecraft",
+    strategyLink: "https://oldschool.tools/calculators/skill/runecrafting"
+};
+ 
+const object54 = {
+    name: "Hunter XP",
+    imagePath: "img/Butterfly net detail.png",
+    message: "50k Hunter XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Hunter",
+    strategyLink: "https://oldschool.tools/calculators/skill/hunter"
+};
+  
+const object55 = {
+    name: "Smithing XP",
+    imagePath: "img/Furnace.png",
+    message: "50k Smithing XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Smithing",
+    strategyLink: "https://oldschool.tools/calculators/skill/smithing"
+};
+  
+//MINIGAMES
+const object56 = {
+    name: "Tree Run",
+    imagePath: "img/Mahogany tree.png",
+    message: "Complete 1 tree run",
+    bossLink: "https://oldschool.runescape.wiki/w/Crop_running",
+    strategyLink: "https://oldschool.runescape.wiki/w/Crop_running#Tree_run"
+};
+ 
+const object57 = {
+    name: "Herb Run",
+    imagePath: "img/Grimy ranarr weed detail.png",
+    message: "Complete 1 herb run",
+    bossLink: "https://oldschool.runescape.wiki/w/Crop_running",
+    strategyLink: "https://oldschool.runescape.wiki/w/Crop_running#Herb_run"
+};
+
+const object58 = {
+    name: "Champion Scroll",
+    imagePath: "img/Giant champion scroll detail.png",
+    message: "Hunt for a Champion Scroll for 1 hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Champions%27_Challenge",
+    strategyLink: "https://oldschool.runescape.wiki/w/Champions%27_Challenge/Strategies"
+};
+ 
  
 // MINIGAMES
-
 // Hallowed Sepulchre
+// Pyramid Plunder
+// Motherload Mine
+// GOTR
+// Hunter rumours
+// birhouse run
 
-TODO: // add a separate the boss tasks and other tasks from each other - "Time to Boss!"
+// OTHER
+// Quests
+// Stock up your bank
+
+// TODO: add a separate the boss tasks and other tasks from each other - "Time to Boss!"
+// TODO: add gif instead of static images
+// TODO: Randomise the number of runs and XP
+//TODO: change the wc image to an axe
  
 
  
 
 // Array of tasks
-const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42, object43];
+const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58];
 
 // Function to generate a random task
 function generateTask() {
