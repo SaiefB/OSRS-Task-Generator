@@ -538,6 +538,22 @@ const object67 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton_(minigame)#Gameplay"
 };
  
+const object68 = {
+    name: "Shooting Stars",
+    imagePath: "img/Crashed Star (size 7).png",
+    message: "Shooting Stars for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Shooting_Stars",
+    strategyLink: "https://oldschool.runescape.wiki/w/Shooting_Stars#Mining"
+};
+ 
+const object69 = {
+    name: "Tithe Farm",
+    imagePath: "img/Logavano fruit detail.png",
+    message: "Tithe Farm for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Tithe_Farm",
+    strategyLink: "https://oldschool.runescape.wiki/w/Tithe_Farm/Strategies"
+};
+ 
  
  
 
@@ -564,7 +580,7 @@ const object67 = {
  
 
 // Array of tasks
-const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67];
+const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69];
 
 // Function to generate a random task
 function generateTask() {
