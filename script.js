@@ -515,11 +515,11 @@ const object64 = {
 };
  
 const object65 = {
-    name: "NMZ",
-    imagePath: "img/Potion (Nightmare Zone, dream).png",
-    message: "1 round of Nightmare Zone",
-    bossLink: "https://oldschool.runescape.wiki/w/Nightmare_Zone",
-    strategyLink: "https://oldschool.runescape.wiki/w/Nightmare_Zone/Strategies"
+    name: "Pest Control",
+    imagePath: "img/Brawler (level 51).png",
+    message: "Pest Control for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Pest_Control",
+    strategyLink: "https://oldschool.runescape.wiki/w/Pest_Control/Strategies"
 };
  
 const object66 = {
@@ -529,6 +529,15 @@ const object66 = {
     bossLink: "https://oldschool.runescape.wiki/w/Nightmare_Zone",
     strategyLink: "https://oldschool.runescape.wiki/w/Nightmare_Zone/Strategies"
 };
+ 
+const object67 = {
+    name: "Shades of Mort'ton",
+    imagePath: "img/Loar remains detail.png",
+    message: "Shades of Mort'ton for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton_(minigame)",
+    strategyLink: "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton_(minigame)#Gameplay"
+};
+ 
  
  
 
@@ -555,7 +564,7 @@ const object66 = {
  
 
 // Array of tasks
-const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65];
+const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67];
 
 // Function to generate a random task
 function generateTask() {
