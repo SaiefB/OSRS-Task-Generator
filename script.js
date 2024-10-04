@@ -482,6 +482,56 @@ const object60 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Blast_Furnace/Strategies"
 };
  
+const object61 = {
+    name: "Fishing Trawler",
+    imagePath: "img/Angler's outfit equipped.png",
+    message: "Fishing trawler for 1 hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Fishing_Trawler",
+    strategyLink: "https://oldschool.runescape.wiki/w/Fishing_Trawler/Strategies"
+};
+ 
+const object62 = {
+    name: "Giants Foundry",
+    imagePath: "img/Preform storage.png",
+    message: "Giants' Foundry for 1 hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Giants%27_Foundry",
+    strategyLink: "https://oldschool.runescape.wiki/w/Giants%27_Foundry/Strategies"
+};
+ 
+const object63 = {
+    name: "Guardians of the Rift",
+    imagePath: "img/Rewards Guardian.png",
+    message: "Guardians of the Rift for 1 hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Guardians_of_the_Rift",
+    strategyLink: "https://oldschool.runescape.wiki/w/Guardians_of_the_Rift/Strategies"
+};
+ 
+const object64 = {
+    name: "Mage Training Arena",
+    imagePath: "img/Rewards Guardian (Mage Training Arena).png",
+    message: "Mage Training Arena for 1 hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Mage_Training_Arena",
+    strategyLink: "https://oldschool.runescape.wiki/w/Mage_Training_Arena#Rooms"
+};
+ 
+const object65 = {
+    name: "NMZ",
+    imagePath: "img/Potion (Nightmare Zone, dream).png",
+    message: "1 round of Nightmare Zone",
+    bossLink: "https://oldschool.runescape.wiki/w/Nightmare_Zone",
+    strategyLink: "https://oldschool.runescape.wiki/w/Nightmare_Zone/Strategies"
+};
+ 
+const object66 = {
+    name: "NMZ",
+    imagePath: "img/Potion (Nightmare Zone, dream).png",
+    message: "1 round of Nightmare Zone",
+    bossLink: "https://oldschool.runescape.wiki/w/Nightmare_Zone",
+    strategyLink: "https://oldschool.runescape.wiki/w/Nightmare_Zone/Strategies"
+};
+ 
+ 
+
  
  
 // MINIGAMES
@@ -505,7 +555,7 @@ const object60 = {
  
 
 // Array of tasks
-const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60];
+const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65];
 
 // Function to generate a random task
 function generateTask() {
