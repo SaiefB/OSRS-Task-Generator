@@ -554,18 +554,95 @@ const object69 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Tithe_Farm/Strategies"
 };
  
+const object70 = {
+    name: "Trouble Brewing",
+    imagePath: "img/Kettle (Trouble Brewing).png",
+    message: "Trouble Brewing for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Trouble_Brewing",
+    strategyLink: "https://oldschool.runescape.wiki/w/Trouble_Brewing#Tasks"
+};
+ 
+const object71 = {
+    name: "Volcanic Mine",
+    imagePath: "img/Giant Boulder (attached).png",
+    message: "Volcanic Mine for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Volcanic_Mine",
+    strategyLink: "https://oldschool.runescape.wiki/w/Volcanic_Mine#Strategy"
+};
+ 
+const object72 = {
+    name: "Hallowed Sepulchre",
+    imagePath: "img/Hallowed mark detail.png",
+    message: "Hallowed Sepulchre for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
+    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+};
+ 
+const object73 = {
+    name: "Pyramid Plunder",
+    imagePath: "img/Sarcophagus (Pyramid Plunder) (Opened).png",
+    message: "Pyramid Plunder for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Pyramid_Plunder",
+    strategyLink: "https://oldschool.runescape.wiki/w/Pyramid_Plunder#Guide"
+};
+ 
+const object74 = {
+    name: "Hallowed Sepulchre",
+    imagePath: "img/Hallowed mark detail.png",
+    message: "Hallowed Sepulchre for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
+    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+};
+ 
+const object75 = {
+    name: "Hallowed Sepulchre",
+    imagePath: "img/Hallowed mark detail.png",
+    message: "Hallowed Sepulchre for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
+    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+};
+ 
+const object76 = {
+    name: "Hallowed Sepulchre",
+    imagePath: "img/Hallowed mark detail.png",
+    message: "Hallowed Sepulchre for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
+    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+};
+ 
+const object77 = {
+    name: "Hallowed Sepulchre",
+    imagePath: "img/Hallowed mark detail.png",
+    message: "Hallowed Sepulchre for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
+    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+};
+ 
+const object78 = {
+    name: "Hallowed Sepulchre",
+    imagePath: "img/Hallowed mark detail.png",
+    message: "Hallowed Sepulchre for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
+    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+};
+ 
+
+ 
  
  
 
  
  
 // MINIGAMES
-// Hallowed Sepulchre
 // Pyramid Plunder
 // Motherload Mine
 // GOTR
 // Hunter rumours
 // birhouse run
+// blast mine
+// brimhaven aglity Arena
+// mahogany home
+
 
 // OTHER
 // Quests
@@ -575,12 +652,13 @@ const object69 = {
 // TODO: add gif instead of static images
 // TODO: Randomise the number of runs and XP
 //TODO: change the wc image to an axe
+// TODO: change the objects name appropriately to make it easier to add future updates
  
 
  
 
 // Array of tasks
-const taskArr = [object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40, object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69];
+const taskArr = [/* object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40,  */object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69, object70, object71, object72, object73, object74, object75, object76, object77, object78];
 
 // Function to generate a random task
 function generateTask() {
