@@ -587,78 +587,105 @@ const object73 = {
 };
  
 const object74 = {
-    name: "Hallowed Sepulchre",
-    imagePath: "img/Hallowed mark detail.png",
-    message: "Hallowed Sepulchre for 1 Hour",
-    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
-    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+    name: "MotherLoad Mine",
+    imagePath: "img/Hopper (Motherlode Mine).png",
+    message: "Motherload Mine for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Motherlode_Mine",
+    strategyLink: "https://oldschool.runescape.wiki/w/Motherlode_Mine#Mining"
 };
  
 const object75 = {
-    name: "Hallowed Sepulchre",
-    imagePath: "img/Hallowed mark detail.png",
-    message: "Hallowed Sepulchre for 1 Hour",
-    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
-    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+    name: "Hunters' Rumours",
+    imagePath: "img/Huntsman's kit detail.png",
+    message: "Hunters' Rumours for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Hunters%27_Rumours",
+    strategyLink: "https://oldschool.runescape.wiki/w/Hunters%27_Rumours#Strategies"
 };
  
 const object76 = {
-    name: "Hallowed Sepulchre",
-    imagePath: "img/Hallowed mark detail.png",
-    message: "Hallowed Sepulchre for 1 Hour",
-    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
-    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+    name: "Birdhouse Run",
+    imagePath: "img/Redwood bird house detail.png",
+    message: "Complete 1 Birdhouse run",
+    bossLink: "https://oldschool.runescape.wiki/w/Bird_house_trapping",
+    strategyLink: "https://oldschool.runescape.wiki/w/Bird_house_trapping#Catching_birds"
 };
  
 const object77 = {
-    name: "Hallowed Sepulchre",
-    imagePath: "img/Hallowed mark detail.png",
-    message: "Hallowed Sepulchre for 1 Hour",
-    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
-    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+    name: "Blast Mine",
+    imagePath: "img/Dynamite detail.png",
+    message: "Blast Mine for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Blast_mine",
+    strategyLink: "https://oldschool.runescape.wiki/w/Blast_mine#Strategy"
 };
  
 const object78 = {
-    name: "Hallowed Sepulchre",
-    imagePath: "img/Hallowed mark detail.png",
-    message: "Hallowed Sepulchre for 1 Hour",
-    bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
-    strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
+    name: "Brimhaven Agility",
+    imagePath: "img/Agility arena ticket detail.png",
+    message: "Brimhaven Agility Arena for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Brimhaven_Agility_Arena",
+    strategyLink: "https://oldschool.runescape.wiki/w/Brimhaven_Agility_Arena#Strategies"
 };
  
-
+const object79 = {
+    name: "Mahogany Homes",
+    imagePath: "img/Mahogany Homes logo.png",
+    message: "Mahogany Homes for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Mahogany_Homes",
+    strategyLink: "https://oldschool.runescape.wiki/w/Mahogany_Homes#Contract_locations"
+};
  
+const object80 = {
+    name: "Clue Scrolls",
+    imagePath: "img/Clue scroll (master) detail.png",
+    message: "Clue Scrolls for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Treasure_Trails",
+    strategyLink: "https://oldschool.runescape.wiki/w/Treasure_Trails/Strategies"
+};
  
- 
-
- 
- 
-// MINIGAMES
-// Pyramid Plunder
-// Motherload Mine
-// GOTR
-// Hunter rumours
-// birhouse run
-// blast mine
-// brimhaven aglity Arena
-// mahogany home
-
+const object81 = {
+    name: "Ecumenical Keys",
+    imagePath: "img/Ecumenical key detail.png",
+    message: "Collect Ecumenical Keys for 1 Hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Ecumenical_key",
+    strategyLink: "https://oldschool.runescape.wiki/w/Ecumenical_key/Strategies"
+};
 
 // OTHER
-// Quests
-// Stock up your bank
+const object82 = {
+    name: "Quest",
+    imagePath: "img/Quests.png",
+    message: "Complete a Quest",
+    bossLink: "https://oldschool.runescape.wiki/w/Quests",
+    strategyLink: "https://oldschool.runescape.wiki/w/Quests/List"
+};
+ 
+const object83 = {
+    name: "Stock Bank",
+    imagePath: "img/Coins detail.png",
+    message: "Stock up your Bank",
+    bossLink: "https://oldschool.runescape.wiki/w/Bank",
+    strategyLink: "https://www.ge-tracker.com/"
+};
+ 
+const object84 = {
+    name: "Quest",
+    imagePath: "img/Platinum token detail.png",
+    message: "Flipping for 1 hour",
+    bossLink: "https://oldschool.runescape.wiki/w/Merchanting",
+    strategyLink: "https://www.ge-tracker.com/"
+};
 
 // TODO: add a separate the boss tasks and other tasks from each other - "Time to Boss!"
 // TODO: add gif instead of static images
 // TODO: Randomise the number of runs and XP
-//TODO: change the wc image to an axe
+// TODO: change the wc image to an axe
 // TODO: change the objects name appropriately to make it easier to add future updates
  
 
  
 
 // Array of tasks
-const taskArr = [/* object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40,  */object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69, object70, object71, object72, object73, object74, object75, object76, object77, object78];
+const taskArr = [ object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40,  object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69, object70, object71, object72, object73, object74, object75, object76, object77, object78, object79, object80, object81, object82, object83, object84];
 
 // Function to generate a random task
 function generateTask() {
