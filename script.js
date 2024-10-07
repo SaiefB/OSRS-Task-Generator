@@ -321,6 +321,13 @@ const boss40 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman/Strategies"
 };
  
+
+
+
+
+
+
+
 // SKILLS
 const skill1 = {
     name: "Agility XP",
@@ -354,11 +361,11 @@ const skill4 = {
 };
 
 const skill5 = {
-    name: "Herblore XP",
+    name: "Prayer XP",
     imagePath: "img/Prayer potion(4) detail.png",
-    message: "50k Herblore XP",
-    bossLink: "https://oldschool.runescape.wiki/w/Herblore",
-    strategyLink: "https://oldschool.tools/calculators/skill/herblore"
+    message: "50k Prayer XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Prayer",
+    strategyLink: "https://oldschool.tools/calculators/skill/prayer"
 };
  
 const skill6 = {
@@ -440,6 +447,28 @@ const skill15 = {
     bossLink: "https://oldschool.runescape.wiki/w/Smithing",
     strategyLink: "https://oldschool.tools/calculators/skill/smithing"
 };
+
+const skill16 = {
+    name: "Crafting XP",
+    imagePath: "img/Necklace mould detail.png",
+    message: "50k Crafting XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Crafting",
+    strategyLink: "https://oldschool.tools/calculators/skill/crafting"
+};
+
+const skill17 = {
+    name: "Farming XP",
+    imagePath: "img/Watering can(8) detail.png",
+    message: "50k Farming XP",
+    bossLink: "https://oldschool.runescape.wiki/w/Farming",
+    strategyLink: "https://oldschool.tools/calculators/skill/farming"
+};
+
+
+
+
+
+
   
 //MINIGAMES
 const object56 = {
@@ -675,17 +704,46 @@ const object84 = {
     strategyLink: "https://www.ge-tracker.com/"
 };
 
-// TODO: add a separate the boss tasks and other tasks from each other - "Time to Boss!"
+const object85 = {
+    name: "Boss",
+    imagePath: "img/Boss.png",
+    message: "TIME TO BOSS!!!",
+    bossLink: "https://oldschool.runescape.wiki/w/Boss",
+    strategyLink: "https://oldschool.runescape.wiki/w/Boss#List_of_bosses"
+};
+
 // TODO: add gif instead of static images
 // TODO: Randomise the number of runs and XP
-// TODO: change the wc image to an axe
-// TODO: change the objects name appropriately to make it easier to add future updates
- 
+// TODO: add a copyright disclaimer and make the website live
 
- 
+// prayer, 
+
+ // Array of Bosses
+ const bossArr = [boss1, boss2, boss3, boss4, boss5, boss6, boss7, boss8, boss9, boss10, boss11, boss12, boss13, boss14, boss15, boss16, boss17, boss18, boss19, boss20, boss21, boss22, boss23, boss24, boss25, boss26, boss27, boss28, boss29, boss30, boss31, boss32, boss33, boss34, boss35, boss36, boss37, boss38, boss39, boss40]
 
 // Array of tasks
-const taskArr = [boss1, boss2, boss3, boss4, boss5, boss6, boss7, boss8, boss9, boss10, boss11, boss12, boss13, boss14, boss15, boss16, boss17, boss18, boss19, boss20, boss21, boss22, boss23, boss24, boss25, boss26, boss27, boss28, boss29, boss30, boss31, boss32, boss33, boss34, boss35, boss36, boss37, boss38, boss39, boss40,  skill1, skill2, skill3,skill4, skill5, skill6, skill7, skill8, skill9, skill10, skill11, skill12, skill13, skill14, skill15, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69, object70, object71, object72, object73, object74, object75, object76, object77, object78, object79, object80, object81, object82, object83, object84];
+const taskArr = [skill1, skill2, skill3,skill4, skill5, skill6, skill7, skill8, /*Slayer Multiplier*/skill9, skill9, skill9, skill9, skill9,/*Slayer Multiplier*/ skill10, skill11, skill12, skill13, skill14, skill15, skill16, skill17, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69, object70, object71, object72, object73, object74, object75, object76, object77, object78, object79, object80, object81, object82, object83, object84, /*Boss Multiplier*/ object85,object85,object85,object85,object85 /*Boss Multiplier*/];
+
+// Function to generate a random boss
+function generateBoss() {
+    let currentBoss = bossArr[Math.floor(Math.random()*bossArr.length)];
+
+    //update the taskCard content with the selected task's data
+    document.querySelector('.task').textContent = currentBoss.message;
+    document.querySelector('.taskCard img').src = currentBoss.imagePath;
+    
+    //Update the boss link
+    const bossLinkElement = document = document.querySelector('#bossLink');
+    bossLinkElement.href = currentBoss.bossLink;
+    
+    //Update the strategy link
+    const strategyLinkElement = document = document.querySelector('#strategyLink');
+    strategyLinkElement.href = currentBoss.strategyLink;
+
+};
+
+// New Task Button event listener
+document.querySelector('.newBossBtn').addEventListener("click", generateBoss);
 
 // Function to generate a random task
 function generateTask() {
