@@ -322,7 +322,7 @@ const boss40 = {
 };
  
 // SKILLS
-const object41 = {
+const skill1 = {
     name: "Agility XP",
     imagePath: "img/Mark of grace detail.png",
     message: "Complete 25 Laps of Agility",
@@ -330,7 +330,7 @@ const object41 = {
     strategyLink: "https://oldschool.tools/calculators/skill/agility"
 };
 
-const object42 = {
+const skill2 = {
     name: "Fishing XP",
     imagePath: "img/Infernal harpoon detail.png",
     message: "25k Fishing XP",
@@ -338,14 +338,14 @@ const object42 = {
     strategyLink: "https://oldschool.tools/calculators/skill/fishing"
 };
  
-const object43 = {
+const skill3 = {
     name: "Cooking XP",
     imagePath: "img/Cooking range (Lumbridge Castle).png",
     message: "100k Cooking XP",
     bossLink: "https://oldschool.runescape.wiki/w/Cooking",
     strategyLink: "https://oldschool.tools/calculators/skill/cooking"
 };
-const object44 = {
+const skill4 = {
     name: "Herblore XP",
     imagePath: "img/Prayer potion(4) detail.png",
     message: "50k Herblore XP",
@@ -353,7 +353,7 @@ const object44 = {
     strategyLink: "https://oldschool.tools/calculators/skill/herblore"
 };
 
-const object45 = {
+const skill5 = {
     name: "Herblore XP",
     imagePath: "img/Prayer potion(4) detail.png",
     message: "50k Herblore XP",
@@ -361,7 +361,7 @@ const object45 = {
     strategyLink: "https://oldschool.tools/calculators/skill/herblore"
 };
  
-const object46 = {
+const skill6 = {
     name: "thieving XP",
     imagePath: "img/Knight of Ardougne.png",
     message: "50k Thieving XP",
@@ -369,7 +369,7 @@ const object46 = {
     strategyLink: "https://oldschool.tools/calculators/skill/thieving"
 };
  
-const object47 = {
+const skill7 = {
     name: "Mining XP",
     imagePath: "img/Runite ore detail.png",
     message: "25k Mining XP",
@@ -377,7 +377,7 @@ const object47 = {
     strategyLink: "https://oldschool.tools/calculators/skill/mining"
 };
  
-const object48 = {
+const skill8 = {
     name: "Woodcutting XP",
     imagePath: "img/Redwood.png",
     message: "50k Woodcutting XP",
@@ -385,7 +385,7 @@ const object48 = {
     strategyLink: "https://oldschool.tools/calculators/skill/woodcutting"
 };
  
-const object49 = {
+const skill9 = {
     name: "Slayer",
     imagePath: "img/Slayer helmet detail.png",
     message: "Complete a Slayer Task",
@@ -393,7 +393,7 @@ const object49 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Slayer_training"
 };
  
-const object50 = {
+const skill10 = {
     name: "Construction XP",
     imagePath: "img/Oak larder built.png",
     message: "100k Construction XP",
@@ -401,7 +401,7 @@ const object50 = {
     strategyLink: "https://oldschool.tools/calculators/skill/construction"
 };
  
-const object51 = {
+const skill11 = {
     name: "Fletching XP",
     imagePath: "img/Magic longbow (u) detail.png",
     message: "100k Fletching XP",
@@ -409,7 +409,7 @@ const object51 = {
     strategyLink: "https://oldschool.tools/calculators/skill/fletching"
 };
  
-const object52 = {
+const skill12 = {
     name: "Firemaking XP",
     imagePath: "img/Fire.gif",
     message: "50k Firemaking XP",
@@ -417,7 +417,7 @@ const object52 = {
     strategyLink: "https://oldschool.tools/calculators/skill/firemaking"
 };
  
-const object53 = {
+const skill13 = {
     name: "Runecrafting XP",
     imagePath: "img/Altar (blood).png",
     message: "50k Runecrafting XP",
@@ -425,7 +425,7 @@ const object53 = {
     strategyLink: "https://oldschool.tools/calculators/skill/runecrafting"
 };
  
-const object54 = {
+const skill14 = {
     name: "Hunter XP",
     imagePath: "img/Butterfly net detail.png",
     message: "50k Hunter XP",
@@ -433,7 +433,7 @@ const object54 = {
     strategyLink: "https://oldschool.tools/calculators/skill/hunter"
 };
   
-const object55 = {
+const skill15 = {
     name: "Smithing XP",
     imagePath: "img/Furnace.png",
     message: "50k Smithing XP",
@@ -685,7 +685,7 @@ const object84 = {
  
 
 // Array of tasks
-const taskArr = [ boss1, boss2, boss3, boss4, boss5, boss6, boss7, boss8, boss9, boss10, boss11, boss12, boss13, boss14, boss15, boss16, boss17, boss18, boss19, boss20, boss21, boss22, boss23, boss24, boss25, boss26, boss27, boss28, boss29, boss30, boss31, boss32, boss33, boss34, boss35, boss36, boss37, boss38, boss39, boss40,  object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69, object70, object71, object72, object73, object74, object75, object76, object77, object78, object79, object80, object81, object82, object83, object84];
+const taskArr = [boss1, boss2, boss3, boss4, boss5, boss6, boss7, boss8, boss9, boss10, boss11, boss12, boss13, boss14, boss15, boss16, boss17, boss18, boss19, boss20, boss21, boss22, boss23, boss24, boss25, boss26, boss27, boss28, boss29, boss30, boss31, boss32, boss33, boss34, boss35, boss36, boss37, boss38, boss39, boss40,  skill1, skill2, skill3,skill4, skill5, skill6, skill7, skill8, skill9, skill10, skill11, skill12, skill13, skill14, skill15, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69, object70, object71, object72, object73, object74, object75, object76, object77, object78, object79, object80, object81, object82, object83, object84];
 
 // Function to generate a random task
 function generateTask() {
