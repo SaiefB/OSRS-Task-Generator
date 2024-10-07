@@ -86,7 +86,7 @@ a:hover {
     color: var(--BGColor);
 }
 
-.newTaskBtn:hover {
+.newTaskBtn:hover, .newBossBtn:hover {
     background-color: var(--ORANGE);
     border-radius: 10px;
 }

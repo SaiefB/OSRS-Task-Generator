@@ -745,6 +745,10 @@ function generateBoss() {
 // New Task Button event listener
 document.querySelector('.newBossBtn').addEventListener("click", generateBoss);
 
+
+
+
+
 // Function to generate a random task
 function generateTask() {
     let currentTask = taskArr[Math.floor(Math.random()*taskArr.length)];
@@ -764,3 +768,13 @@ function generateTask() {
 
 // New Task Button event listener
 document.querySelector('.newTaskBtn').addEventListener("click", generateTask);
+
+
+
+
+
+function resetTask() {
+    document.querySelector('.task').textContent = "Generate next Task!"
+}
+// Task Completed BUtton
+document.querySelector('.newBossBtn').addEventListener("click", resetTask);
