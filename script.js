@@ -1,7 +1,7 @@
 // Define Objects
 
 // BOSSES
-const object1 = {
+const boss1 = {
     name: "General Graardor",
     imagePath: "img/General Graardor.png",
     message: "Kill 5 General Graardor",
@@ -9,7 +9,7 @@ const object1 = {
     strategyLink: "https://oldschool.runescape.wiki/w/General_Graardor/Strategies"
 };
 
-const object2 = {
+const boss2 = {
     name: "Commander Zilyana",
     imagePath: "img/Commander Zilyana.png",
     message: "Kill 5 Commander Zilyana",
@@ -17,7 +17,7 @@ const object2 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Commander_Zilyana/Strategies"
 };
 
-const object3 = {
+const boss3 = {
     name: "K'ril Tsutsaroth",
     imagePath: "img/K'ril Tsutsaroth.png",
     message: "Kill 5 General K'ril Tsutsaroth",
@@ -25,7 +25,7 @@ const object3 = {
     strategyLink: "https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth/Strategies"
 };
 
-const object4 = {
+const boss4 = {
     name: "Kree'arra",
     imagePath: "img/Kree'arra.png",
     message: "Kill 5 Kree'arra",
@@ -33,7 +33,7 @@ const object4 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Kree%27arra/Strategies"
 };
  
-const object5 = {
+const boss5 = {
     name: "Sarachnis",
     imagePath: "img/Sarachnis.png",
     message: "Kill 5 Sarachnis",
@@ -41,7 +41,7 @@ const object5 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Sarachnis/Strategies"
 };
  
-const object6 = {
+const boss6 = {
     name: "King Black Dragon",
     imagePath: "img/King Black Dragon.png",
     message: "Kill 5 King Black Dragon",
@@ -49,7 +49,7 @@ const object6 = {
     strategyLink: "https://oldschool.runescape.wiki/w/King_Black_Dragon/Strategies"
 };
  
-const object7 = {
+const boss7 = {
     name: "Giant Mole",
     imagePath: "img/Giant Mole.png",
     message: "Kill 10 Giant Mole",
@@ -57,7 +57,7 @@ const object7 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Giant Mole/Strategies"
 };
  
-const object8 = {
+const boss8 = {
     name: "Chaos Fanatic",
     imagePath: "img/Chaos Fanatic.png",
     message: "Kill 10 Chaos Fanatic",
@@ -65,7 +65,7 @@ const object8 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Chaos Fanatic/Strategies"
 };
  
-const object9 = {
+const boss9 = {
     name: "Dagannoth Kings",
     imagePath: "img/Dagannoth Rex.png",
     message: "Kill 10 Dagannoth Kings",
@@ -73,7 +73,7 @@ const object9 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Dagannoth Kings/Strategies"
 };
  
-const object10 = {
+const boss10 = {
     name: "Obor",
     imagePath: "img/Obor.png",
     message: "Kill 5 Obor",
@@ -81,7 +81,7 @@ const object10 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Obor"
 };
  
-const object11 = {
+const boss11 = {
     name: "Obor",
     imagePath: "img/Obor.png",
     message: "Kill 5 Obor",
@@ -89,7 +89,7 @@ const object11 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Obor"
 };
  
-const object12 = {
+const boss12 = {
     name: "Kalphite Queen",
     imagePath: "img/Kalphite Queen.png",
     message: "Kill 5 Kalphite Queen",
@@ -97,7 +97,7 @@ const object12 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Kalphite_Queen/Strategies"
 };
  
-const object13 = {
+const boss13 = {
     name: "Vorkath",
     imagePath: "img/Vorkath.png",
     message: "Kill 5 Vorkath",
@@ -105,7 +105,7 @@ const object13 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Vorkath/Strategies"
 };
  
-const object14 = {
+const boss14 = {
     name: "Scurrius",
     imagePath: "img/Scurrius.png",
     message: "Kill 5 Scurrius",
@@ -113,7 +113,7 @@ const object14 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Scurrius/Strategies"
 };
  
-const object15 = {
+const boss15 = {
     name: "Barrows",
     imagePath: "img/Barrows.png",
     message: "Kill 5 Barrows",
@@ -121,7 +121,7 @@ const object15 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Barrows/Strategies"
 };
  
-const object16 = {
+const boss16 = {
     name: "Artio",
     imagePath: "img/Artio.png",
     message: "Kill 5 Artio",
@@ -129,7 +129,7 @@ const object16 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Artio/Strategies"
 };
  
-const object17 = {
+const boss17 = {
     name: "Artio",
     imagePath: "img/Artio.png",
     message: "Kill 5 Artio",
@@ -137,7 +137,7 @@ const object17 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Artio/Strategies"
 };
  
-const object18 = {
+const boss18 = {
     name: "Bryophyta",
     imagePath: "img/Bryophyta.png",
     message: "Kill 5 Bryophyta",
@@ -145,7 +145,7 @@ const object18 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Bryophyta"
 };
  
-const object19 = {
+const boss19 = {
     name: "Calvar'ion",
     imagePath: "img/Calvar'ion.png",
     message: "Kill 5 Calvar'ion",
@@ -153,7 +153,7 @@ const object19 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Vet%27ion/Strategies"
 };
  
-const object20 = {
+const boss20 = {
     name: "Callisto",
     imagePath: "img/Callisto.png",
     message: "Kill 5 Callisto",
@@ -161,7 +161,7 @@ const object20 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Callisto/Strategies"
 };
  
-const object21 = {
+const boss21 = {
     name: "Chaos Elemental",
     imagePath: "img/Chaos Elemental.png",
     message: "Kill 5 Chaos Elemental",
@@ -169,7 +169,7 @@ const object21 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Chaos_Elemental/Strategies"
 };
  
-const object22 = {
+const boss22 = {
     name: "Crazy Archaeologist",
     imagePath: "img/Crazy archaeologist.png",
     message: "Kill 5 Crazy Archaeologist",
@@ -177,7 +177,7 @@ const object22 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Crazy_archaeologist/Strategies"
 };
  
-const object23 = {
+const boss23 = {
     name: "Deranged Archaeologist",
     imagePath: "img/Deranged archaeologist.png",
     message: "Kill 5 Deranged archaeologist",
@@ -185,7 +185,7 @@ const object23 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Deranged_archaeologist/Strategies"
 };
  
-const object24 = {
+const boss24 = {
     name: "Grotesque Guardians",
     imagePath: "img/Dawn.png",
     message: "Kill 5 Grotesque Guardians",
@@ -193,7 +193,7 @@ const object24 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Grotesque_Guardians/Strategies"
 };
  
-const object25 = {
+const boss25 = {
     name: "Hespori",
     imagePath: "img/Hespori.png",
     message: "Kill Hespori",
@@ -201,7 +201,7 @@ const object25 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Hespori"
 };
  
-const object26 = {
+const boss26 = {
     name: "The Mimic",
     imagePath: "img/The Mimic.png",
     message: "Kill The Mimic",
@@ -209,7 +209,7 @@ const object26 = {
     strategyLink: "https://oldschool.runescape.wiki/w/The_Mimic/Strategies"
 };
  
-const object27 = {
+const boss27 = {
     name: "Moons of Peril",
     imagePath: "img/Blood Moon.png",
     message: "Take on the Moons of Peril 5 times",
@@ -217,7 +217,7 @@ const object27 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Moons_of_Peril/Strategies"
 };
  
-const object28 = {
+const boss28 = {
     name: "Scorpia",
     imagePath: "img/Scorpia.png",
     message: "Kill 5 Scorpia",
@@ -225,7 +225,7 @@ const object28 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Scorpia/Strategies"
 };
  
-const object29 = {
+const boss29 = {
     name: "Skotizo",
     imagePath: "img/Skotizo.png",
     message: "Kill Skotizo or Grab one Dark Totem piece",
@@ -233,7 +233,7 @@ const object29 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Skotizo/Strategies"
 };
  
-const object30 = {
+const boss30 = {
     name: "Spindel",
     imagePath: "img/Spindel.png",
     message: "Kill 5 Spindel",
@@ -241,7 +241,7 @@ const object30 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Venenatis/Strategies"
 };
  
-const object31 = {
+const boss31 = {
     name: "Tempoross",
     imagePath: "img/Tempoross.png",
     message: "Kill Tempoross 10 times",
@@ -249,7 +249,7 @@ const object31 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Tempoross/Strategies"
 };
  
-const object32 = {
+const boss32 = {
     name: "ToB",
     imagePath: "img/Theatre of Blood logo.png",
     message: "Complete Theatre of Blood",
@@ -257,7 +257,7 @@ const object32 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Theatre_of_Blood/Strategies"
 };
  
-const object33 = {
+const boss33 = {
     name: "ToA",
     imagePath: "img/Tombs of Amascut.png",
     message: "Complete Tombs of Amascut",
@@ -265,7 +265,7 @@ const object33 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Tombs_of_Amascut/Strategies"
 };
  
-const object34 = {
+const boss34 = {
     name: "Jad",
     imagePath: "img/TzTok-Jad.png",
     message: "Kill Jad",
@@ -273,7 +273,7 @@ const object34 = {
     strategyLink: "https://oldschool.runescape.wiki/w/TzHaar_Fight_Cave/Strategies#TzTok-Jad"
 };
  
-const object35 = {
+const boss35 = {
     name: "Venenatis",
     imagePath: "img/Venenatis.png",
     message: "Kill 5 Venenatis",
@@ -281,7 +281,7 @@ const object35 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Venenatis/Strategies"
 };
  
-const object36 = {
+const boss36 = {
     name: "Vet'ion",
     imagePath: "img/Vet'ion.png",
     message: "Kill 5 Vet'ion",
@@ -289,7 +289,7 @@ const object36 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Vet%27ion/Strategies"
 };
  
-const object37 = {
+const boss37 = {
     name: "Wintertodt",
     imagePath: "img/WT.png",
     message: "Complate 10 Wintertodt",
@@ -297,7 +297,7 @@ const object37 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Wintertodt/Strategies"
 };
  
-const object38 = {
+const boss38 = {
     name: "Zulrah",
     imagePath: "img/z.png",
     message: "Kill 5 Zulrah",
@@ -305,7 +305,7 @@ const object38 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Zulrah/Strategies"
 };
 
-const object39 = {
+const boss39 = {
     name: "Demonic Gorillas",
     imagePath: "img/Demonic gorilla.png",
     message: "1 hour of Demonic Gorillas",
@@ -313,7 +313,7 @@ const object39 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Demonic_gorilla/Strategies"
 };
 
-const object40 = {
+const boss40 = {
     name: "Lizard Shamans",
     imagePath: "img/Lizardman shaman (Lizardman Temple).png",
     message: "1 hour of Lizard Shamans",
@@ -685,7 +685,7 @@ const object84 = {
  
 
 // Array of tasks
-const taskArr = [ object1, object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16, object17, object18, object19, object20, object21, object22, object23, object24, object25, object26, object27, object28, object29, object30, object31, object32, object33, object34, object35, object36, object37, object38, object39, object40,  object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69, object70, object71, object72, object73, object74, object75, object76, object77, object78, object79, object80, object81, object82, object83, object84];
+const taskArr = [ boss1, boss2, boss3, boss4, boss5, boss6, boss7, boss8, boss9, boss10, boss11, boss12, boss13, boss14, boss15, boss16, boss17, boss18, boss19, boss20, boss21, boss22, boss23, boss24, boss25, boss26, boss27, boss28, boss29, boss30, boss31, boss32, boss33, boss34, boss35, boss36, boss37, boss38, boss39, boss40,  object41, object42, object43,object44, object45, object46, object47, object48, object49, object50, object51, object52, object53, object54, object55, object56, object57, object58, object59, object60, object61, object62, object63, object64, object65, object67, object68, object69, object70, object71, object72, object73, object74, object75, object76, object77, object78, object79, object80, object81, object82, object83, object84];
 
 // Function to generate a random task
 function generateTask() {
