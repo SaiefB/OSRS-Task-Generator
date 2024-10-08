@@ -378,7 +378,7 @@ const skill6 = {
  
 const skill7 = {
     name: "Mining XP",
-    imagePath: "img/Mining cape emote.png",
+    imagePath: "img/Runite ore detail.png",
     message: "25k Mining XP",
     bossLink: "https://oldschool.runescape.wiki/w/Mining",
     strategyLink: "https://oldschool.tools/calculators/skill/mining"
@@ -712,7 +712,6 @@ const object85 = {
     strategyLink: "https://oldschool.runescape.wiki/w/Boss#List_of_bosses"
 };
 
-// TODO: add gif instead of static images
 // TODO: Randomise the number of runs and XP
 // TODO: add a copyright disclaimer and make the website live
 
