@@ -378,7 +378,7 @@ const skill6 = {
  
 const skill7 = {
     name: "Mining XP",
-    imagePath: "img/Runite ore detail.png",
+    imagePath: "img/Mining cape emote.png",
     message: "25k Mining XP",
     bossLink: "https://oldschool.runescape.wiki/w/Mining",
     strategyLink: "https://oldschool.tools/calculators/skill/mining"
@@ -726,6 +726,7 @@ const taskArr = [skill1, skill2, skill3,skill4, skill5, skill6, skill7, skill8, 
 
 // Function to generate a random boss
 function generateBoss() {
+    document.querySelector('.taskCompletedBtn').style.backgroundColor = "orange";
     let currentBoss = bossArr[Math.floor(Math.random()*bossArr.length)];
 
     //update the taskCard content with the selected task's data
@@ -751,6 +752,7 @@ document.querySelector('.newBossBtn').addEventListener("click", generateBoss);
 
 // Function to generate a random task
 function generateTask() {
+    document.querySelector('.taskCompletedBtn').style.backgroundColor = "orange";
     let currentTask = taskArr[Math.floor(Math.random()*taskArr.length)];
 
     //update the taskCard content with the selected task's data
@@ -771,10 +773,22 @@ document.querySelector('.newTaskBtn').addEventListener("click", generateTask);
 
 
 
-
-
 function resetTask() {
-    document.querySelector('.task').textContent = "Generate next Task!"
-}
+    // Update the task message and image
+    document.querySelector('.task').textContent = "Well done. Generate next Task!"
+    document.querySelector('.taskCard img').src = "img/Bank filler detail.png";
+
+    //Update the boss link
+    const bossLinkElement = document.querySelector('#bossLink');
+    bossLinkElement.href = "#";
+
+    //Update the strategy link
+    const strategyLinkElement = document.querySelector('#strategyLink');
+    strategyLinkElement.href = "#";
+
+    document.querySelector('.taskCompletedBtn').style.backgroundColor = "green"
+
+};
+
 // Task Completed BUtton
-document.querySelector('.newBossBtn').addEventListener("click", resetTask);
+document.querySelector('.taskCompletedBtn').addEventListener("click", resetTask);
