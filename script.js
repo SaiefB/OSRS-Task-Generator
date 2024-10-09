@@ -4,7 +4,7 @@
 const boss1 = {
     name: "General Graardor",
     imagePath: "img/General Graardor.png",
-    message: "Kill 5 General Graardor",
+    message: "Kill General Graardor",
     bossLink: "https://oldschool.runescape.wiki/w/General_Graardor",
     strategyLink: "https://oldschool.runescape.wiki/w/General_Graardor/Strategies"
 };
@@ -12,7 +12,7 @@ const boss1 = {
 const boss2 = {
     name: "Commander Zilyana",
     imagePath: "img/Commander Zilyana.png",
-    message: "Kill 5 Commander Zilyana",
+    message: "Kill Commander Zilyana",
     bossLink: "https://oldschool.runescape.wiki/w/Commander_Zilyana",
     strategyLink: "https://oldschool.runescape.wiki/w/Commander_Zilyana/Strategies"
 };
@@ -20,7 +20,7 @@ const boss2 = {
 const boss3 = {
     name: "K'ril Tsutsaroth",
     imagePath: "img/K'ril Tsutsaroth.png",
-    message: "Kill 5 General K'ril Tsutsaroth",
+    message: "Kill General K'ril Tsutsaroth",
     bossLink: "https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth",
     strategyLink: "https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth/Strategies"
 };
@@ -28,7 +28,7 @@ const boss3 = {
 const boss4 = {
     name: "Kree'arra",
     imagePath: "img/Kree'arra.png",
-    message: "Kill 5 Kree'arra",
+    message: "Kill Kree'arra",
     bossLink: "https://oldschool.runescape.wiki/w/Kree%27arra",
     strategyLink: "https://oldschool.runescape.wiki/w/Kree%27arra/Strategies"
 };
@@ -36,7 +36,7 @@ const boss4 = {
 const boss5 = {
     name: "Sarachnis",
     imagePath: "img/Sarachnis.png",
-    message: "Kill 5 Sarachnis",
+    message: "Kill Sarachnis",
     bossLink: "https://oldschool.runescape.wiki/w/Sarachnis",
     strategyLink: "https://oldschool.runescape.wiki/w/Sarachnis/Strategies"
 };
@@ -44,7 +44,7 @@ const boss5 = {
 const boss6 = {
     name: "King Black Dragon",
     imagePath: "img/King Black Dragon.png",
-    message: "Kill 5 King Black Dragon",
+    message: "Kill King Black Dragon",
     bossLink: "https://oldschool.runescape.wiki/w/King_Black_Dragon",
     strategyLink: "https://oldschool.runescape.wiki/w/King_Black_Dragon/Strategies"
 };
@@ -52,7 +52,7 @@ const boss6 = {
 const boss7 = {
     name: "Giant Mole",
     imagePath: "img/Giant Mole.png",
-    message: "Kill 10 Giant Mole",
+    message: "Kill Giant Mole",
     bossLink: "https://oldschool.runescape.wiki/w/Giant Mole",
     strategyLink: "https://oldschool.runescape.wiki/w/Giant Mole/Strategies"
 };
@@ -60,7 +60,7 @@ const boss7 = {
 const boss8 = {
     name: "Chaos Fanatic",
     imagePath: "img/Chaos Fanatic.png",
-    message: "Kill 10 Chaos Fanatic",
+    message: "Kill Chaos Fanatic",
     bossLink: "https://oldschool.runescape.wiki/w/Chaos Fanatic",
     strategyLink: "https://oldschool.runescape.wiki/w/Chaos Fanatic/Strategies"
 };
@@ -68,7 +68,7 @@ const boss8 = {
 const boss9 = {
     name: "Dagannoth Kings",
     imagePath: "img/Dagannoth Rex.png",
-    message: "Kill 10 Dagannoth Kings",
+    message: "Kill Dagannoth Kings",
     bossLink: "https://oldschool.runescape.wiki/w/Dagannoth Kings",
     strategyLink: "https://oldschool.runescape.wiki/w/Dagannoth Kings/Strategies"
 };
@@ -76,15 +76,17 @@ const boss9 = {
 const boss10 = {
     name: "Obor",
     imagePath: "img/Obor.png",
-    message: "Kill 5 Obor",
+    message: "Kill Obor",
     bossLink: "https://oldschool.runescape.wiki/w/Obor",
     strategyLink: "https://oldschool.runescape.wiki/w/Obor"
 };
  
+// TODO: remove extra Obor
+
 const boss11 = {
     name: "Obor",
     imagePath: "img/Obor.png",
-    message: "Kill 5 Obor",
+    message: "Kill Obor",
     bossLink: "https://oldschool.runescape.wiki/w/Obor",
     strategyLink: "https://oldschool.runescape.wiki/w/Obor"
 };
@@ -92,7 +94,7 @@ const boss11 = {
 const boss12 = {
     name: "Kalphite Queen",
     imagePath: "img/Kalphite Queen.png",
-    message: "Kill 5 Kalphite Queen",
+    message: "Kill Kalphite Queen",
     bossLink: "https://oldschool.runescape.wiki/w/Kalphite Queen",
     strategyLink: "https://oldschool.runescape.wiki/w/Kalphite_Queen/Strategies"
 };
@@ -100,7 +102,7 @@ const boss12 = {
 const boss13 = {
     name: "Vorkath",
     imagePath: "img/Vorkath.png",
-    message: "Kill 5 Vorkath",
+    message: "Kill Vorkath",
     bossLink: "https://oldschool.runescape.wiki/w/Vorkath",
     strategyLink: "https://oldschool.runescape.wiki/w/Vorkath/Strategies"
 };
@@ -108,7 +110,7 @@ const boss13 = {
 const boss14 = {
     name: "Scurrius",
     imagePath: "img/Scurrius.png",
-    message: "Kill 5 Scurrius",
+    message: "Kill Scurrius",
     bossLink: "https://oldschool.runescape.wiki/w/Scurrius",
     strategyLink: "https://oldschool.runescape.wiki/w/Scurrius/Strategies"
 };
@@ -116,7 +118,7 @@ const boss14 = {
 const boss15 = {
     name: "Barrows",
     imagePath: "img/Barrows.png",
-    message: "Kill 5 Barrows",
+    message: "Kill Barrows",
     bossLink: "https://oldschool.runescape.wiki/w/Barrows",
     strategyLink: "https://oldschool.runescape.wiki/w/Barrows/Strategies"
 };
@@ -124,15 +126,18 @@ const boss15 = {
 const boss16 = {
     name: "Artio",
     imagePath: "img/Artio.png",
-    message: "Kill 5 Artio",
+    message: "Kill Artio",
     bossLink: "https://oldschool.runescape.wiki/w/Artio",
     strategyLink: "https://oldschool.runescape.wiki/w/Artio/Strategies"
 };
+
+// TODO: remove extra artio
+// TODO: fix tempoross message
  
 const boss17 = {
     name: "Artio",
     imagePath: "img/Artio.png",
-    message: "Kill 5 Artio",
+    message: "Kill Artio",
     bossLink: "https://oldschool.runescape.wiki/w/Artio",
     strategyLink: "https://oldschool.runescape.wiki/w/Artio/Strategies"
 };
@@ -140,7 +145,7 @@ const boss17 = {
 const boss18 = {
     name: "Bryophyta",
     imagePath: "img/Bryophyta.png",
-    message: "Kill 5 Bryophyta",
+    message: "Kill Bryophyta",
     bossLink: "https://oldschool.runescape.wiki/w/Bryophyta",
     strategyLink: "https://oldschool.runescape.wiki/w/Bryophyta"
 };
@@ -148,7 +153,7 @@ const boss18 = {
 const boss19 = {
     name: "Calvar'ion",
     imagePath: "img/Calvar'ion.png",
-    message: "Kill 5 Calvar'ion",
+    message: "Kill Calvar'ion",
     bossLink: "https://oldschool.runescape.wiki/w/Calvar%27ion",
     strategyLink: "https://oldschool.runescape.wiki/w/Vet%27ion/Strategies"
 };
@@ -156,7 +161,7 @@ const boss19 = {
 const boss20 = {
     name: "Callisto",
     imagePath: "img/Callisto.png",
-    message: "Kill 5 Callisto",
+    message: "Kill Callisto",
     bossLink: "https://oldschool.runescape.wiki/w/Callisto",
     strategyLink: "https://oldschool.runescape.wiki/w/Callisto/Strategies"
 };
@@ -164,7 +169,7 @@ const boss20 = {
 const boss21 = {
     name: "Chaos Elemental",
     imagePath: "img/Chaos Elemental.png",
-    message: "Kill 5 Chaos Elemental",
+    message: "Kill Chaos Elemental",
     bossLink: "https://oldschool.runescape.wiki/w/Chaos_Elemental",
     strategyLink: "https://oldschool.runescape.wiki/w/Chaos_Elemental/Strategies"
 };
@@ -172,7 +177,7 @@ const boss21 = {
 const boss22 = {
     name: "Crazy Archaeologist",
     imagePath: "img/Crazy archaeologist.png",
-    message: "Kill 5 Crazy Archaeologist",
+    message: "Kill Crazy Archaeologist",
     bossLink: "https://oldschool.runescape.wiki/w/Crazy_archaeologist",
     strategyLink: "https://oldschool.runescape.wiki/w/Crazy_archaeologist/Strategies"
 };
@@ -180,7 +185,7 @@ const boss22 = {
 const boss23 = {
     name: "Deranged Archaeologist",
     imagePath: "img/Deranged archaeologist.png",
-    message: "Kill 5 Deranged archaeologist",
+    message: "Kill Deranged archaeologist",
     bossLink: "https://oldschool.runescape.wiki/w/Deranged_archaeologist",
     strategyLink: "https://oldschool.runescape.wiki/w/Deranged_archaeologist/Strategies"
 };
@@ -188,7 +193,7 @@ const boss23 = {
 const boss24 = {
     name: "Grotesque Guardians",
     imagePath: "img/Dawn.png",
-    message: "Kill 5 Grotesque Guardians",
+    message: "Kill Grotesque Guardians",
     bossLink: "https://oldschool.runescape.wiki/w/Grotesque_Guardians#The_fight",
     strategyLink: "https://oldschool.runescape.wiki/w/Grotesque_Guardians/Strategies"
 };
@@ -212,7 +217,7 @@ const boss26 = {
 const boss27 = {
     name: "Moons of Peril",
     imagePath: "img/Blood Moon.png",
-    message: "Take on the Moons of Peril 5 times",
+    message: "Take on the Moons of Peril",
     bossLink: "https://oldschool.runescape.wiki/w/Moons_of_Peril",
     strategyLink: "https://oldschool.runescape.wiki/w/Moons_of_Peril/Strategies"
 };
@@ -220,7 +225,7 @@ const boss27 = {
 const boss28 = {
     name: "Scorpia",
     imagePath: "img/Scorpia.png",
-    message: "Kill 5 Scorpia",
+    message: "Kill Scorpia",
     bossLink: "https://oldschool.runescape.wiki/w/Scorpia",
     strategyLink: "https://oldschool.runescape.wiki/w/Scorpia/Strategies"
 };
@@ -236,7 +241,7 @@ const boss29 = {
 const boss30 = {
     name: "Spindel",
     imagePath: "img/Spindel.png",
-    message: "Kill 5 Spindel",
+    message: "Kill Spindel",
     bossLink: "https://oldschool.runescape.wiki/w/Spindel",
     strategyLink: "https://oldschool.runescape.wiki/w/Venenatis/Strategies"
 };
@@ -244,7 +249,7 @@ const boss30 = {
 const boss31 = {
     name: "Tempoross",
     imagePath: "img/Tempoross.png",
-    message: "Kill Tempoross 10 times",
+    message: "Kill Tempoross times",
     bossLink: "https://oldschool.runescape.wiki/w/Tempoross",
     strategyLink: "https://oldschool.runescape.wiki/w/Tempoross/Strategies"
 };
@@ -276,7 +281,7 @@ const boss34 = {
 const boss35 = {
     name: "Venenatis",
     imagePath: "img/Venenatis.png",
-    message: "Kill 5 Venenatis",
+    message: "Kill Venenatis",
     bossLink: "https://oldschool.runescape.wiki/w/Venenatis",
     strategyLink: "https://oldschool.runescape.wiki/w/Venenatis/Strategies"
 };
@@ -284,7 +289,7 @@ const boss35 = {
 const boss36 = {
     name: "Vet'ion",
     imagePath: "img/Vet'ion.png",
-    message: "Kill 5 Vet'ion",
+    message: "Kill Vet'ion",
     bossLink: "https://oldschool.runescape.wiki/w/Vet%27ion",
     strategyLink: "https://oldschool.runescape.wiki/w/Vet%27ion/Strategies"
 };
@@ -292,7 +297,7 @@ const boss36 = {
 const boss37 = {
     name: "Wintertodt",
     imagePath: "img/WT.png",
-    message: "Complate 10 Wintertodt",
+    message: "Complate Wintertodt",
     bossLink: "https://oldschool.runescape.wiki/w/Wintertodt",
     strategyLink: "https://oldschool.runescape.wiki/w/Wintertodt/Strategies"
 };
@@ -300,7 +305,7 @@ const boss37 = {
 const boss38 = {
     name: "Zulrah",
     imagePath: "img/z.png",
-    message: "Kill 5 Zulrah",
+    message: "Kill Zulrah",
     bossLink: "https://oldschool.runescape.wiki/w/Zulrah",
     strategyLink: "https://oldschool.runescape.wiki/w/Zulrah/Strategies"
 };
@@ -308,7 +313,7 @@ const boss38 = {
 const boss39 = {
     name: "Demonic Gorillas",
     imagePath: "img/Demonic gorilla.png",
-    message: "1 hour of Demonic Gorillas",
+    message: "Demonic Gorillas",
     bossLink: "https://oldschool.runescape.wiki/w/Demonic_gorilla",
     strategyLink: "https://oldschool.runescape.wiki/w/Demonic_gorilla/Strategies"
 };
@@ -316,7 +321,7 @@ const boss39 = {
 const boss40 = {
     name: "Lizard Shamans",
     imagePath: "img/Lizardman shaman (Lizardman Temple).png",
-    message: "1 hour of Lizard Shamans",
+    message: "Lizard Shamans",
     bossLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman#Lizardman_Temple",
     strategyLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman/Strategies"
 };
@@ -713,9 +718,11 @@ const object85 = {
 };
 
 // TODO: Randomise the number of runs and XP
-// TODO: add a copyright disclaimer and make the website live
+// TODO: make the website live
+// TODO: media queries for smaller screens and bigger screens including mobile
 
-// prayer, 
+// Boss Count
+const bossCountArr = ["once","2 times","3 times","4 times","5 times","6 times","7 times","8 times","9 times","10 times"]
 
  // Array of Bosses
  const bossArr = [boss1, boss2, boss3, boss4, boss5, boss6, boss7, boss8, boss9, boss10, boss11, boss12, boss13, boss14, boss15, boss16, boss17, boss18, boss19, boss20, boss21, boss22, boss23, boss24, boss25, boss26, boss27, boss28, boss29, boss30, boss31, boss32, boss33, boss34, boss35, boss36, boss37, boss38, boss39, boss40]
@@ -727,9 +734,11 @@ const taskArr = [skill1, skill2, skill3,skill4, skill5, skill6, skill7, skill8, 
 function generateBoss() {
     document.querySelector('.taskCompletedBtn').style.backgroundColor = "orange";
     let currentBoss = bossArr[Math.floor(Math.random()*bossArr.length)];
+    let bossCount = bossCountArr[Math.floor(Math.random()*bossCountArr.length)];
+    console.log("Boss Count:" + bossCount);
 
     //update the taskCard content with the selected task's data
-    document.querySelector('.task').textContent = currentBoss.message;
+    document.querySelector('.task').textContent = currentBoss.message + " " + bossCount;
     document.querySelector('.taskCard img').src = currentBoss.imagePath;
     
     //Update the boss link
@@ -739,9 +748,7 @@ function generateBoss() {
     //Update the strategy link
     const strategyLinkElement = document = document.querySelector('#strategyLink');
     strategyLinkElement.href = currentBoss.strategyLink;
-
 };
-
 // New Task Button event listener
 document.querySelector('.newBossBtn').addEventListener("click", generateBoss);
 
@@ -766,9 +773,11 @@ function generateTask() {
     const strategyLinkElement = document = document.querySelector('#strategyLink');
     strategyLinkElement.href = currentTask.strategyLink;
 };
-
 // New Task Button event listener
 document.querySelector('.newTaskBtn').addEventListener("click", generateTask);
+
+
+
 
 
 
@@ -786,8 +795,6 @@ function resetTask() {
     strategyLinkElement.href = "#";
 
     document.querySelector('.taskCompletedBtn').style.backgroundColor = "green"
-
 };
-
 // Task Completed BUtton
 document.querySelector('.taskCompletedBtn').addEventListener("click", resetTask);
