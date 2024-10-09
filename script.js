@@ -734,20 +734,38 @@ const taskArr = [skill1, skill2, skill3,skill4, skill5, skill6, skill7, skill8, 
 function generateBoss() {
     document.querySelector('.taskCompletedBtn').style.backgroundColor = "orange";
     let currentBoss = bossArr[Math.floor(Math.random()*bossArr.length)];
-    let bossCount = bossCountArr[Math.floor(Math.random()*bossCountArr.length)];
-    console.log("Boss Count:" + bossCount);
 
-    //update the taskCard content with the selected task's data
-    document.querySelector('.task').textContent = currentBoss.message + " " + bossCount;
-    document.querySelector('.taskCard img').src = currentBoss.imagePath;
+    if (bossArr !== boss10 || boss11 || boss25 || boss26 || boss29 || boss32 || boss33 || boss34 || boss39 || boss40) {
+        let bossCount = bossCountArr[Math.floor(Math.random()*bossCountArr.length)];
+        console.log("Boss Count:" + bossCount);
+
+        document.querySelector('.task').textContent = currentBoss.message + " " + bossCount;
+
+        //update the taskCard content with the selected task's data
+        document.querySelector('.taskCard img').src = currentBoss.imagePath;
     
-    //Update the boss link
-    const bossLinkElement = document = document.querySelector('#bossLink');
-    bossLinkElement.href = currentBoss.bossLink;
+        //Update the boss link
+        const bossLinkElement = document.querySelector('#bossLink');
+        bossLinkElement.href = currentBoss.bossLink;
     
-    //Update the strategy link
-    const strategyLinkElement = document = document.querySelector('#strategyLink');
-    strategyLinkElement.href = currentBoss.strategyLink;
+        //Update the strategy link
+        const strategyLinkElement = document.querySelector('#strategyLink');
+        strategyLinkElement.href = currentBoss.strategyLink;
+        return
+    } else {
+        //update the taskCard content with the selected task's data
+        document.querySelector('.taskCard img').src = currentBoss.imagePath;
+    
+        //Update the boss link
+        const bossLinkElement = document.querySelector('#bossLink');
+        bossLinkElement.href = currentBoss.bossLink;
+    
+        //Update the strategy link
+        const strategyLinkElement = document.querySelector('#strategyLink');
+        strategyLinkElement.href = currentBoss.strategyLink;
+    }
+
+    
 };
 // New Task Button event listener
 document.querySelector('.newBossBtn').addEventListener("click", generateBoss);
