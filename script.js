@@ -337,7 +337,7 @@ const boss40 = {
 const skill1 = {
     name: "Agility XP",
     imagePath: "img/Mark of grace detail.png",
-    message: "Complete 25 Laps of Agility",
+    message: "Agility",
     bossLink: "https://oldschool.runescape.wiki/w/Agility",
     strategyLink: "https://oldschool.tools/calculators/skill/agility"
 };
@@ -345,7 +345,7 @@ const skill1 = {
 const skill2 = {
     name: "Fishing XP",
     imagePath: "img/Infernal harpoon detail.png",
-    message: "25k Fishing XP",
+    message: "Fishing",
     bossLink: "https://oldschool.runescape.wiki/w/Fishing#Fishing_methods",
     strategyLink: "https://oldschool.tools/calculators/skill/fishing"
 };
@@ -353,14 +353,14 @@ const skill2 = {
 const skill3 = {
     name: "Cooking XP",
     imagePath: "img/Cooking range (Lumbridge Castle).png",
-    message: "100k Cooking XP",
+    message: "Cooking",
     bossLink: "https://oldschool.runescape.wiki/w/Cooking",
     strategyLink: "https://oldschool.tools/calculators/skill/cooking"
 };
 const skill4 = {
     name: "Herblore XP",
     imagePath: "img/Prayer potion(4) detail.png",
-    message: "50k Herblore XP",
+    message: "Herblore",
     bossLink: "https://oldschool.runescape.wiki/w/Herblore",
     strategyLink: "https://oldschool.tools/calculators/skill/herblore"
 };
@@ -368,7 +368,7 @@ const skill4 = {
 const skill5 = {
     name: "Prayer XP",
     imagePath: "img/Prayer potion(4) detail.png",
-    message: "50k Prayer XP",
+    message: "Prayer",
     bossLink: "https://oldschool.runescape.wiki/w/Prayer",
     strategyLink: "https://oldschool.tools/calculators/skill/prayer"
 };
@@ -376,7 +376,7 @@ const skill5 = {
 const skill6 = {
     name: "thieving XP",
     imagePath: "img/Knight of Ardougne.png",
-    message: "50k Thieving XP",
+    message: "Thieving",
     bossLink: "https://oldschool.runescape.wiki/w/Thieving",
     strategyLink: "https://oldschool.tools/calculators/skill/thieving"
 };
@@ -384,7 +384,7 @@ const skill6 = {
 const skill7 = {
     name: "Mining XP",
     imagePath: "img/Runite ore detail.png",
-    message: "25k Mining XP",
+    message: "Mining",
     bossLink: "https://oldschool.runescape.wiki/w/Mining",
     strategyLink: "https://oldschool.tools/calculators/skill/mining"
 };
@@ -392,7 +392,7 @@ const skill7 = {
 const skill8 = {
     name: "Woodcutting XP",
     imagePath: "img/Redwood.png",
-    message: "50k Woodcutting XP",
+    message: "Woodcutting",
     bossLink: "https://oldschool.runescape.wiki/w/Woodcutting",
     strategyLink: "https://oldschool.tools/calculators/skill/woodcutting"
 };
@@ -408,7 +408,7 @@ const skill9 = {
 const skill10 = {
     name: "Construction XP",
     imagePath: "img/Oak larder built.png",
-    message: "100k Construction XP",
+    message: "Construction",
     bossLink: "https://oldschool.runescape.wiki/w/Construction",
     strategyLink: "https://oldschool.tools/calculators/skill/construction"
 };
@@ -416,7 +416,7 @@ const skill10 = {
 const skill11 = {
     name: "Fletching XP",
     imagePath: "img/Magic longbow (u) detail.png",
-    message: "100k Fletching XP",
+    message: "Fletching",
     bossLink: "https://oldschool.runescape.wiki/w/Fletching",
     strategyLink: "https://oldschool.tools/calculators/skill/fletching"
 };
@@ -424,7 +424,7 @@ const skill11 = {
 const skill12 = {
     name: "Firemaking XP",
     imagePath: "img/Fire.gif",
-    message: "50k Firemaking XP",
+    message: "Firemaking",
     bossLink: "https://oldschool.runescape.wiki/w/Firemaking",
     strategyLink: "https://oldschool.tools/calculators/skill/firemaking"
 };
@@ -432,7 +432,7 @@ const skill12 = {
 const skill13 = {
     name: "Runecrafting XP",
     imagePath: "img/Altar (blood).png",
-    message: "50k Runecrafting XP",
+    message: "Runecrafting",
     bossLink: "https://oldschool.runescape.wiki/w/Runecraft",
     strategyLink: "https://oldschool.tools/calculators/skill/runecrafting"
 };
@@ -440,7 +440,7 @@ const skill13 = {
 const skill14 = {
     name: "Hunter XP",
     imagePath: "img/Butterfly net detail.png",
-    message: "50k Hunter XP",
+    message: "Hunter",
     bossLink: "https://oldschool.runescape.wiki/w/Hunter",
     strategyLink: "https://oldschool.tools/calculators/skill/hunter"
 };
@@ -448,7 +448,7 @@ const skill14 = {
 const skill15 = {
     name: "Smithing XP",
     imagePath: "img/Furnace.png",
-    message: "50k Smithing XP",
+    message: "Smithing",
     bossLink: "https://oldschool.runescape.wiki/w/Smithing",
     strategyLink: "https://oldschool.tools/calculators/skill/smithing"
 };
@@ -456,7 +456,7 @@ const skill15 = {
 const skill16 = {
     name: "Crafting XP",
     imagePath: "img/Necklace mould detail.png",
-    message: "50k Crafting XP",
+    message: "Crafting",
     bossLink: "https://oldschool.runescape.wiki/w/Crafting",
     strategyLink: "https://oldschool.tools/calculators/skill/crafting"
 };
@@ -464,7 +464,7 @@ const skill16 = {
 const skill17 = {
     name: "Farming XP",
     imagePath: "img/Watering can(8) detail.png",
-    message: "50k Farming XP",
+    message: "Farming",
     bossLink: "https://oldschool.runescape.wiki/w/Farming",
     strategyLink: "https://oldschool.tools/calculators/skill/farming"
 };
@@ -511,7 +511,7 @@ const object59 = {
 const object60 = {
     name: "Blast Furnace",
     imagePath: "img/Melting Pot.png",
-    message: "Blast Furnace for 1 hour",
+    message: "Blast Furnace",
     bossLink: "https://oldschool.runescape.wiki/w/Blast_Furnace",
     strategyLink: "https://oldschool.runescape.wiki/w/Blast_Furnace/Strategies"
 };
@@ -519,7 +519,7 @@ const object60 = {
 const object61 = {
     name: "Fishing Trawler",
     imagePath: "img/Angler's outfit equipped.png",
-    message: "Fishing trawler for 1 hour",
+    message: "Fishing trawler",
     bossLink: "https://oldschool.runescape.wiki/w/Fishing_Trawler",
     strategyLink: "https://oldschool.runescape.wiki/w/Fishing_Trawler/Strategies"
 };
@@ -527,7 +527,7 @@ const object61 = {
 const object62 = {
     name: "Giants Foundry",
     imagePath: "img/Preform storage.png",
-    message: "Giants' Foundry for 1 hour",
+    message: "Giants' Foundry",
     bossLink: "https://oldschool.runescape.wiki/w/Giants%27_Foundry",
     strategyLink: "https://oldschool.runescape.wiki/w/Giants%27_Foundry/Strategies"
 };
@@ -535,7 +535,7 @@ const object62 = {
 const object63 = {
     name: "Guardians of the Rift",
     imagePath: "img/Rewards Guardian.png",
-    message: "Guardians of the Rift for 1 hour",
+    message: "Guardians of the Rift",
     bossLink: "https://oldschool.runescape.wiki/w/Guardians_of_the_Rift",
     strategyLink: "https://oldschool.runescape.wiki/w/Guardians_of_the_Rift/Strategies"
 };
@@ -575,7 +575,7 @@ const object67 = {
 const object68 = {
     name: "Shooting Stars",
     imagePath: "img/Crashed Star (size 7).png",
-    message: "Shooting Stars for 1 Hour",
+    message: "Shooting Stars",
     bossLink: "https://oldschool.runescape.wiki/w/Shooting_Stars",
     strategyLink: "https://oldschool.runescape.wiki/w/Shooting_Stars#Mining"
 };
@@ -583,7 +583,7 @@ const object68 = {
 const object69 = {
     name: "Tithe Farm",
     imagePath: "img/Logavano fruit detail.png",
-    message: "Tithe Farm for 1 Hour",
+    message: "Tithe Farm",
     bossLink: "https://oldschool.runescape.wiki/w/Tithe_Farm",
     strategyLink: "https://oldschool.runescape.wiki/w/Tithe_Farm/Strategies"
 };
@@ -599,7 +599,7 @@ const object70 = {
 const object71 = {
     name: "Volcanic Mine",
     imagePath: "img/Giant Boulder (attached).png",
-    message: "Volcanic Mine for 1 Hour",
+    message: "Volcanic Mine",
     bossLink: "https://oldschool.runescape.wiki/w/Volcanic_Mine",
     strategyLink: "https://oldschool.runescape.wiki/w/Volcanic_Mine#Strategy"
 };
@@ -607,7 +607,7 @@ const object71 = {
 const object72 = {
     name: "Hallowed Sepulchre",
     imagePath: "img/Hallowed mark detail.png",
-    message: "Hallowed Sepulchre for 1 Hour",
+    message: "Hallowed Sepulchre",
     bossLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre",
     strategyLink: "https://oldschool.runescape.wiki/w/Hallowed_Sepulchre#Gameplay"
 };
@@ -615,7 +615,7 @@ const object72 = {
 const object73 = {
     name: "Pyramid Plunder",
     imagePath: "img/Sarcophagus (Pyramid Plunder) (Opened).png",
-    message: "Pyramid Plunder for 1 Hour",
+    message: "Pyramid Plunder",
     bossLink: "https://oldschool.runescape.wiki/w/Pyramid_Plunder",
     strategyLink: "https://oldschool.runescape.wiki/w/Pyramid_Plunder#Guide"
 };
@@ -623,7 +623,7 @@ const object73 = {
 const object74 = {
     name: "MotherLoad Mine",
     imagePath: "img/Hopper (Motherlode Mine).png",
-    message: "Motherload Mine for 1 Hour",
+    message: "Motherload Mine",
     bossLink: "https://oldschool.runescape.wiki/w/Motherlode_Mine",
     strategyLink: "https://oldschool.runescape.wiki/w/Motherlode_Mine#Mining"
 };
@@ -631,7 +631,7 @@ const object74 = {
 const object75 = {
     name: "Hunters' Rumours",
     imagePath: "img/Huntsman's kit detail.png",
-    message: "Hunters' Rumours for 1 Hour",
+    message: "Hunters' Rumours",
     bossLink: "https://oldschool.runescape.wiki/w/Hunters%27_Rumours",
     strategyLink: "https://oldschool.runescape.wiki/w/Hunters%27_Rumours#Strategies"
 };
@@ -647,7 +647,7 @@ const object76 = {
 const object77 = {
     name: "Blast Mine",
     imagePath: "img/Dynamite detail.png",
-    message: "Blast Mine for 1 Hour",
+    message: "Blast Mine",
     bossLink: "https://oldschool.runescape.wiki/w/Blast_mine",
     strategyLink: "https://oldschool.runescape.wiki/w/Blast_mine#Strategy"
 };
@@ -655,7 +655,7 @@ const object77 = {
 const object78 = {
     name: "Brimhaven Agility",
     imagePath: "img/Agility arena ticket detail.png",
-    message: "Brimhaven Agility Arena for 1 Hour",
+    message: "Brimhaven Agility Arena",
     bossLink: "https://oldschool.runescape.wiki/w/Brimhaven_Agility_Arena",
     strategyLink: "https://oldschool.runescape.wiki/w/Brimhaven_Agility_Arena#Strategies"
 };
@@ -663,7 +663,7 @@ const object78 = {
 const object79 = {
     name: "Mahogany Homes",
     imagePath: "img/Mahogany Homes logo.png",
-    message: "Mahogany Homes for 1 Hour",
+    message: "Mahogany Homes",
     bossLink: "https://oldschool.runescape.wiki/w/Mahogany_Homes",
     strategyLink: "https://oldschool.runescape.wiki/w/Mahogany_Homes#Contract_locations"
 };
@@ -702,7 +702,7 @@ const object83 = {
 };
  
 const object84 = {
-    name: "Quest",
+    name: "Flipping",
     imagePath: "img/Platinum token detail.png",
     message: "Flipping for 1 hour",
     bossLink: "https://oldschool.runescape.wiki/w/Merchanting",
@@ -719,10 +719,13 @@ const object85 = {
 
 // TODO: Randomise the number of runs and XP
 // TODO: make the website live
+// TODO: remove extra quest object
 // TODO: media queries for smaller screens and bigger screens including mobile
 
 // Boss Count
-const bossCountArr = ["once","2 times","3 times","4 times","5 times","6 times","7 times","8 times","9 times","10 times"]
+const bossCountArr = ["once","2 times","3 times","4 times","5 times","6 times","7 times","8 times","9 times","10 times", "11 times", "12 times", "13 times", "14 times", "15 times"]
+
+const taskCountArr = ["25k XP in ", "50k XP in ", "75k XP in ", "100k XP in ", "30 minutes of ", "1 hour of ", "1.5 hours of ", "2 hours of ", "Increase 1 lvl with "]
 
  // Array of Bosses
  const bossArr = [boss1, boss2, boss3, boss4, boss5, boss6, boss7, boss8, boss9, boss10, boss11, boss12, boss13, boss14, boss15, boss16, boss17, boss18, boss19, boss20, boss21, boss22, boss23, boss24, boss25, boss26, boss27, boss28, boss29, boss30, boss31, boss32, boss33, boss34, boss35, boss36, boss37, boss38, boss39, boss40]
@@ -768,8 +771,18 @@ function generateTask() {
     document.querySelector('.taskCompletedBtn').style.backgroundColor = "orange";
     let currentTask = taskArr[Math.floor(Math.random()*taskArr.length)];
 
+    if (currentTask !== skill9 && currentTask !== object56 && currentTask !== object57 && currentTask !== object58 && currentTask !== object59 && currentTask !== object64 && currentTask !== object65 && currentTask !== object66 && currentTask !== object67 && currentTask !== object70 && currentTask !== object76 && currentTask !== object80 && currentTask !== object81 && currentTask !== object82 && currentTask !== object83 && currentTask !== object84 && currentTask !== object85) {
+        // randomises the multiplier per task
+        let taskCount = taskCountArr[Math.floor(Math.random()*taskCountArr.length)];
+        console.log("Task Count:" + taskCount);
+
+        // adds the multiplier per task to the message
+        document.querySelector('.task').textContent = taskCount + currentTask.message;
+    } else {
+        document.querySelector('.task').textContent = currentTask.message;
+    };
+
     //update the taskCard content with the selected task's data
-    document.querySelector('.task').textContent = currentTask.message;
     document.querySelector('.taskCard img').src = currentTask.imagePath;
 
     //Update the boss link
