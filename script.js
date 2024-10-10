@@ -76,7 +76,7 @@ const boss9 = {
 const boss10 = {
     name: "Obor",
     imagePath: "img/Obor.png",
-    message: "Kill Obor",
+    message: "Kill Obor or hunt for a Giant Key",
     bossLink: "https://oldschool.runescape.wiki/w/Obor",
     strategyLink: "https://oldschool.runescape.wiki/w/Obor"
 };
@@ -86,7 +86,7 @@ const boss10 = {
 const boss11 = {
     name: "Obor",
     imagePath: "img/Obor.png",
-    message: "Kill Obor",
+    message: "Kill Obor or hunt for a Giant Key",
     bossLink: "https://oldschool.runescape.wiki/w/Obor",
     strategyLink: "https://oldschool.runescape.wiki/w/Obor"
 };
@@ -118,7 +118,7 @@ const boss14 = {
 const boss15 = {
     name: "Barrows",
     imagePath: "img/Barrows.png",
-    message: "Kill Barrows",
+    message: "Kill the Barrows Brothers",
     bossLink: "https://oldschool.runescape.wiki/w/Barrows",
     strategyLink: "https://oldschool.runescape.wiki/w/Barrows/Strategies"
 };
@@ -233,7 +233,7 @@ const boss28 = {
 const boss29 = {
     name: "Skotizo",
     imagePath: "img/Skotizo.png",
-    message: "Kill Skotizo or Grab one Dark Totem piece",
+    message: "Kill Skotizo or hunt for a Dark Totem piece",
     bossLink: "https://oldschool.runescape.wiki/w/Skotizo",
     strategyLink: "https://oldschool.runescape.wiki/w/Skotizo/Strategies"
 };
@@ -249,7 +249,7 @@ const boss30 = {
 const boss31 = {
     name: "Tempoross",
     imagePath: "img/Tempoross.png",
-    message: "Kill Tempoross times",
+    message: "Kill Tempoross",
     bossLink: "https://oldschool.runescape.wiki/w/Tempoross",
     strategyLink: "https://oldschool.runescape.wiki/w/Tempoross/Strategies"
 };
@@ -273,7 +273,7 @@ const boss33 = {
 const boss34 = {
     name: "Jad",
     imagePath: "img/TzTok-Jad.png",
-    message: "Kill Jad",
+    message: "Complete the FIght Caves",
     bossLink: "https://oldschool.runescape.wiki/w/TzTok-Jad",
     strategyLink: "https://oldschool.runescape.wiki/w/TzHaar_Fight_Cave/Strategies#TzTok-Jad"
 };
@@ -313,7 +313,7 @@ const boss38 = {
 const boss39 = {
     name: "Demonic Gorillas",
     imagePath: "img/Demonic gorilla.png",
-    message: "Demonic Gorillas",
+    message: "Kill Demonic Gorillas for an hour",
     bossLink: "https://oldschool.runescape.wiki/w/Demonic_gorilla",
     strategyLink: "https://oldschool.runescape.wiki/w/Demonic_gorilla/Strategies"
 };
@@ -321,7 +321,7 @@ const boss39 = {
 const boss40 = {
     name: "Lizard Shamans",
     imagePath: "img/Lizardman shaman (Lizardman Temple).png",
-    message: "Lizard Shamans",
+    message: "Kill Lizard Shamans for an hour",
     bossLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman#Lizardman_Temple",
     strategyLink: "https://oldschool.runescape.wiki/w/Lizardman_shaman/Strategies"
 };
@@ -735,37 +735,26 @@ function generateBoss() {
     document.querySelector('.taskCompletedBtn').style.backgroundColor = "orange";
     let currentBoss = bossArr[Math.floor(Math.random()*bossArr.length)];
 
-    if (bossArr !== boss10 || boss11 || boss25 || boss26 || boss29 || boss32 || boss33 || boss34 || boss39 || boss40) {
+    if (currentBoss !== boss10 && currentBoss !== boss11 && currentBoss !== boss25 && currentBoss !== boss26 && currentBoss !== boss29 && currentBoss !== boss32 && currentBoss !== boss33 && currentBoss !== boss34 && currentBoss !== boss39 && currentBoss !== boss40) {
+        // randomises the number of bosses per task
         let bossCount = bossCountArr[Math.floor(Math.random()*bossCountArr.length)];
         console.log("Boss Count:" + bossCount);
-
+        // adds the number of bosses per task to the message
         document.querySelector('.task').textContent = currentBoss.message + " " + bossCount;
-
-        //update the taskCard content with the selected task's data
-        document.querySelector('.taskCard img').src = currentBoss.imagePath;
-    
-        //Update the boss link
-        const bossLinkElement = document.querySelector('#bossLink');
-        bossLinkElement.href = currentBoss.bossLink;
-    
-        //Update the strategy link
-        const strategyLinkElement = document.querySelector('#strategyLink');
-        strategyLinkElement.href = currentBoss.strategyLink;
-        return
     } else {
-        //update the taskCard content with the selected task's data
-        document.querySelector('.taskCard img').src = currentBoss.imagePath;
-    
-        //Update the boss link
-        const bossLinkElement = document.querySelector('#bossLink');
-        bossLinkElement.href = currentBoss.bossLink;
-    
-        //Update the strategy link
-        const strategyLinkElement = document.querySelector('#strategyLink');
-        strategyLinkElement.href = currentBoss.strategyLink;
-    }
+        document.querySelector('.task').textContent = currentBoss.message;
+    };
 
-    
+     //update the taskCard content with the selected task's data
+     document.querySelector('.taskCard img').src = currentBoss.imagePath;
+
+     //Update the boss link
+     const bossLinkElement = document.querySelector('#bossLink');
+     bossLinkElement.href = currentBoss.bossLink;
+ 
+     //Update the strategy link
+     const strategyLinkElement = document.querySelector('#strategyLink');
+     strategyLinkElement.href = currentBoss.strategyLink;
 };
 // New Task Button event listener
 document.querySelector('.newBossBtn').addEventListener("click", generateBoss);
